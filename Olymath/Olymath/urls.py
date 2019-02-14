@@ -27,6 +27,6 @@ from app_main import views as app_main_view
 urlpatterns = [
     path('', view.hello),
     path('login',view.login),
-    path('mini_login',app_main_view.miniLogin),
-
+    path('mini_login',view.miniLogin),
+    path('getTripList',app_main_view.getTripList)
 ]

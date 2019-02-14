@@ -111,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'PRC'
 
 USE_I18N = True
 
@@ -127,6 +127,7 @@ STATIC_URL = '/static/'
 
 # 微信小程序
 WECHAT_MINI = {
-    'app_id':' 	wx9b2414f5847e863e',
+    'app_id':'wx9b2414f5847e863e',
     'app_secret':'e62789e631b4c1a759691c69d0723ac5'
 }
+    
