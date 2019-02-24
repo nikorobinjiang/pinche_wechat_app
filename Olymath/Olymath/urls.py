@@ -28,5 +28,6 @@ urlpatterns = [
     path('', view.hello),
     path('login',view.login),
     path('mini_login',view.miniLogin),
-    path('getTripList',app_main_view.getTripList)
+    path('getTripList',app_main_view.getTripList),
+    path('trip/create',app_main_view.createTrip)
 ]

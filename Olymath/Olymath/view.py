@@ -43,6 +43,7 @@ def miniLogin(request):
     except User.DoesNotExist:
         obj = User.objects.create(wx_openid=res['openid'])
     obj.session_key = res['session_key']
+    # obj.unionid = res_decrypt['unionid']
     obj.nickName = res_decrypt['nickName']
     obj.avatarUrl = res_decrypt['avatarUrl']
     obj.province = res_decrypt['province']
